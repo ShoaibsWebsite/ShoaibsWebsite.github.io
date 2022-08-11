@@ -1,0 +1,57 @@
+.p1 {
+    width: 60%;
+    margin: auto;
+    margin-top: 10%;
+    padding: 2%;
+    font-size: 18px;
+    border: 10px solid darkblue;
+    text-align: center;
+    position: relative;
+
+}
+
+.contactText {
+    text-align: center;
+    margin-top: 50px;
+}
+
+textarea {
+    height: 100px;
+    width: 60%;
+    resize: none;
+}
+
+.formControl {
+    width: 70%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    color: black;
+    font-size: 18px;
+    margin: auto;
+    margin-bottom: 16px;
+}
+
+form .submit {
+    width: 60%;
+    background: transparent;
+    border-color: black;
+    color: black;
+    font-weight: bold;
+    border-radius: 15px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover {
+    background-color: darkgray;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+
+input {
+    height: 45px;
+}
