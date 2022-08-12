@@ -14,13 +14,6 @@
 
 <body>
     <nav class="mainNav">
-        <div class="searchBar">
-            <form class="header-search" name="search_form" method="get" action="/search">
-                <input type="text" class="searchText" placeholder=" " value=" ">
-                <input type="submit" class="searchSubmit" value="Search">
-            </form>
-        </div>
-
         <div class="navRow">
             <ul>
                 <li><a class="active" href="index.html">Home</a></li>
@@ -28,6 +21,15 @@
             </ul>
         </div>
     </nav>
+
+    <div class="searchBar">
+        <form class="header-search" name="search_form" method="get" action="/search">
+            <input type="text" class="searchText" placeholder=" " value=" ">
+            <button type="search" class="searchSubmit">
+                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+            </button>
+        </form>
+    </div>
 
     <div class="mainContainer">
         <h1 class="main-title">Window Frame Offers</h1>
