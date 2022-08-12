@@ -1,4 +1,8 @@
-*{
+:root {
+    --gray: #ededed;
+}
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -9,7 +13,6 @@ body {
     background-position: center;
     font-family: monospace;
     margin: auto;
-    background-color: rgba(211, 211, 211, 0.899);
 }
 
 .mainNav {
@@ -25,8 +28,7 @@ body {
 }
 
 .mainNav li a {
-    border-radius: 15px;
-    color: lightgray;
+    color: white;
     text-decoration: none;
     padding-top: 0px;
     padding-left: 10px;
@@ -41,11 +43,8 @@ body {
 }
 
 .mainNav li a:hover {
-    border: 1px solid darkgray;
-    padding-top: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 0px;
-    background: darkgray;
-    transition: all 0.3s ease-in;
+    border: 1px solid var(--gray);
+    background: var(--gray);
+    color: black;
+    transition: all 0.6s ease-in;
 }
